@@ -152,7 +152,7 @@
                 const blob = new Blob([finalPdfBytes], { type: "application/pdf" });
                 const link = document.createElement("a");
                 link.href = URL.createObjectURL(blob);
-                link.download = "MHT_CET_College_Predictor.pdf";
+                link.download = "Direct_Second_Year_College_Predictor.pdf";
                 link.click();
             } catch (error) {
                 alert("Failed to generate PDF: " + error.message);
